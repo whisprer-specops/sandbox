@@ -1,0 +1,13 @@
+PATH=".;C:/Ruby32-x64/lib;C:\Ruby32-x64\bin;C:\Program Files (x86)\oh-my-posh\bin\;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Rust stable GNU 1.85\bin;C:\Program Files\Rust stable MSVC 1.85\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\phine\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\phine\AppData\Local\Programs\Python\Python313\;C:\Users\phine\AppData\Local\Programs\oh-my-posh\bin\;C:\Users\phine\AppData\Local\Microsoft\WindowsApps;C:\Users\phine\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\phine\AppData\Local\GitHubDesktop\bin;C:\Program Files\pandoc\;C:\msys64\mingw64\bin\;C:\Program Files (x86)\Nmap;C:\Program Files (x86)\Nmap;C:\nssm-2.24\win64;C:\Users\phine\OneDrive\Desktop;C:\tor_browser\Browser\TorBrowser\Tor;D:\code\repos\GitHub_Desktop\snaeksy_cli_mails\src\utils;D:\code\repos\GitHub_Desktop\snaeksy_cli_mails\src\utils;D:\code\repos\github_desktop\snaeksy_cli_mails\build;C:\curl\curl-8.13.0_2-win64-mingw\bin;C:\Users\phine\AppData\Roaming\npm;c:\nodejs\;C:\Users\phine\.dotnet\tools;C:\php-8.4.7;C:\Ruby1.8.5\ruby\bin;c:\Ruby32-x64\bin;" "gcc -o conftest.exe -IC:/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Ruby32-x64/include/ruby-3.2.0 -ID:/code/repos/github_desktop/sandbox/ext/sand_table -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby320  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
